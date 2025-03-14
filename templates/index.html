@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Lista de Publicaciones</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Publicaciones</h1>
+    <a href="{{ url_for('create') }}">Crear nueva publicación</a>
+    <ul>
+        {% for post in posts %}
+            <li>
+                <h2>{{ post['title'] }}</h2>
+                <p>{{ post['content'] }}</p>
+            </li>
+        {% else %}
+            <li><p>No hay publicaciones disponibles.</p></li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
