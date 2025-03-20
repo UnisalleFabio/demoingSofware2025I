@@ -391,7 +391,8 @@ Configuren una base de datos de pruebas y utilicen herramientas como `pytest` pa
 Para desplegar la aplicación, consideren el uso de servicios como [PythonAnywhere](https://www.pythonanywhere.com/) o [Heroku](https://www.heroku.com/). Asegúrense de configurar correctamente las variables de entorno y la base de datos de producción.
 
 ---
-
+Fabio Hernandez 
+Docente
 Este ejercicio les permitirá adquirir experiencia práctica en el desarrollo de aplicaciones web con Flask, el uso de sistemas de control de versiones como Git y GitHub, y la gestión de diferentes ambientes de desarrollo. ¡Estoy seguro de que será una experiencia enriquecedora para todos! 🚀
 
 **Fabio Andrés Hernández Rueda**
