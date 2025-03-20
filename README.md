@@ -1,4 +1,4 @@
-# Desarrollo de una Aplicación Web con Flask y SQLite
+# Desarrollo de una Aplicación Web con Flask & SQLite
 
 ## Objetivos del Taller
 
