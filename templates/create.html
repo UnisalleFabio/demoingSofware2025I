@@ -1,1 +1,21 @@
-todo web page 2
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Crear Publicación</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Crear Nueva Publicación</h1>
+    <form method="post" action="{{ url_for('create') }}">
+        <label for="title">Título:</label>
+        <input type="text" id="title" name="title" required>
+        <br>
+        <label for="content">Contenido:</label>
+        <textarea id="content" name="content" rows="4" required></textarea>
+        <br>
+        <button type="submit">Guardar</button>
+    </form>
+    <a href="{{ url_for('index') }}">Volver a la lista de publicaciones</a>
+</body>
+</html>
